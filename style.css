@@ -1,0 +1,339 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+.container{
+	max-width: 95%;
+	margin: 0 auto;
+
+}
+
+/* typography 
+*/
+
+.title{
+	font-size: 1.5rem;
+	margin: 8.8rem;
+	padding-bottom: 2em;
+}
+
+.title span{
+	font-weight: 300;
+	font-size: 1.5rem;
+	display: block;
+}
+
+.form-title{
+	font-size: 2.5rem;
+	margin: 5rem;
+	padding-bottom: 0rem;
+}
+
+.form-title span{
+	font-weight: 300;
+	font-size: 1.5rem;
+	display: block;
+}
+
+
+@media(min-width: 50rem){
+	.title{
+		font-size: 3.3rem;
+		margin: 4.6rem;
+		padding-bottom: 3em;
+	}
+}
+
+
+/* Buttons */
+
+.button{
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.15rem;
+	text-decoration: none;
+	text-transform: uppercase;
+	border: 2px solid;
+	padding: 0.5em 1.95em;
+	display: inline-block;
+
+}
+
+.button-accent{
+	color: black;
+}
+
+.button-accent:hover,
+.button-accent:focus{
+	background: #18a1a0;
+	color: #232323;
+}
+
+
+
+/* HEADER AREA --------------------------------------------
+*/
+
+header{
+	position: absolute; 
+	margin: 1em;
+	left: 0;
+	right: 0;
+}
+
+nav ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav li{
+	display: inline-block;
+	margin: 0.5em;
+}
+
+nav a{
+	font-weight: 900;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 0.9rem;
+	padding: 0.5em;
+	
+
+}
+
+nav a:hover,
+nav a:focus{
+	color: #18a1a0;
+}
+
+@media(min-width: 50rem){
+	.logo{
+		float: left;
+	}
+
+	nav{
+		float: right;
+	}
+}
+
+/* Form Area
+---------------- */
+
+form{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+	font-size: 1.5rem;
+}
+
+
+
+/* HERO AREA --------------------------------------------
+*/
+
+.home-hero{
+
+	background-image: url(backgroundnew.png);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position:center;
+	padding: 0.5em 0;
+	color: black;
+
+}
+
+
+@media(min-width: 50rem){
+	.home-hero{
+		height: 100vh;
+
+	}
+}
+
+
+.home-form{
+	background: white;
+	background-size: cover;
+	background-position: center;
+	padding: 0.5em 0;
+	color: black;
+	
+
+}
+
+
+
+/* Footer Section 
+------------- */
+
+footer{
+	margin: 1em;
+	left: 0;
+	right: 0;
+}
+
+div ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+div li{
+	display: inline-block;
+	margin: 1em;
+	padding: 1em;
+}
+
+
+
+
+/*
+
+*{
+	box-sizing: border-box;
+}
+
+
+
+body{
+	margin: 0;
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+.container{
+	max-width: 95%;
+	height: auto;
+}
+
+/*typography 
+=================== */
+
+/*
+.title{
+	font-size: 2.0rem;
+	margin-bottom: 12em;
+	padding-bottom: 0.1em;
+}
+
+.title span{
+	font-weight: 300;
+	display: block;
+	font-size: 0.9em;
+}
+
+
+@media (min-width: 60rem) {
+	.title{
+		font-size: 3rem;
+		margin-top: 5.2rem;
+	}
+}
+
+/* buttons */
+/*
+.button{
+	display: inline-block;
+	font-size: 1.1rem;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-width: 2px;
+	border-style: solid;
+	padding: 0.5em 1.75em;
+}
+
+.button-accent{
+	color: black;
+}
+
+.button-accent:hover,
+.button-accent:focus{
+	background: #18A1A0;
+	color: #232323;
+
+}
+
+/* header
+============================== */
+/*
+header{
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: 1em;
+	
+}
+
+
+nav ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav li{
+	display: inline-block;
+	margin: 1em;
+}
+
+nav a{
+	font-weight: 700;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 1rem;
+	padding: 0.5em;
+	color: black;
+}
+
+nav a:hover,
+nav a:focus{
+	color: #18A1A0;
+}
+
+@media (min-width: 60rem) {
+	.logo{
+		float: left;
+	}
+
+	nav{
+		float: right;
+	}
+}
+
+
+/* home-hero 
+================================ */
+/*
+.home-hero{
+	background-image: url(backgroundnew.png);
+	background-size: cover;
+	background-position: center;
+	padding-top: 11em;
+	padding-bottom: 7em;
+}
+
+@media (min-width: 60rem) {
+	.home-hero{
+
+	}
+}
+
+*/
